@@ -2,7 +2,7 @@ const cadastrar = function() {
    let codigo = document.getElementById("codigo").value || "X";
    const produto = document.getElementById("produto").value || "X";
    const quantidade = parseInt(document.getElementById("quantidade").value || 0);
-   const preco = parseInt(document.getElementById("preco").value|| 0);
+   const preco = parseFloat(document.getElementById("preco").value|| 0);
 
    codigo = codigo.toUpperCase()
 
